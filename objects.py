@@ -15,7 +15,6 @@ class screen:
 			while len(i)>0:
 				screen[i.pop()][i.pop()]="*"
 		os.system("cls")
-		q=0
 		print(*list(map(lambda x: " ".join(x),screen)), end="\n")
 
 	
