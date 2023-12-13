@@ -1,19 +1,7 @@
 import os,time, sys
 from pynput import keyboard
-import threading
 import random
 
-class stuff:
-	def __init__(self):
-		self.ar=[]
-	def app(self,ob):
-		if ob not in self.ar:
-			self.ar.append(ob)
-	def pr(self):
-		os.system("cls")
-		for i in self.ar:
-			i.draw()
-stuff=stuff()
 os.system("mode 70,40")
 class screen:
 	def __init__(self,x=70,y=40):
